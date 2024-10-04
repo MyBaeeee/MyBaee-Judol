@@ -94,6 +94,15 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Media query untuk perangkat mobile */
+@media (max-width: 600px) {
+    footer p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+
 /* Modal Styles */
 .modal {
     display: none;
