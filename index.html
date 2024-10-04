@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Bahaya Slot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Peringatan Bahaya Judi -->
+    <div class="warning">
+        <marquee behavior="scroll" direction="left">
+            Website ini hanya simulasi tiruan bahwa judi online itu bisa disetting biar kamu kalah terus, dikasi menang sekali cuma biar main teruss aja.
+        </marquee>
+    </div>
+
+    <div class="container">
+        <h1>Simulasi Bahaya Judi</h1>
+        
+        <!-- Menampilkan Saldo -->
+        <div class="saldo">
+            Saldo Anda: Rp <span id="saldo">100000</span>
+        </div>
+
+        <!-- Input Taruhan -->
+        <div class="taruhan">
+            <label for="betAmount">Taruhan: Rp </label>
+            <input type="number" id="betAmount" min="1000" placeholder="1000" step="1000">
+        </div>
+
+        <!-- Mesin Slot -->
+        <div class="slot-machine">
+            <div id="slot1" class="slot">🍒</div>
+            <div id="slot2" class="slot">🍋</div>
+            <div id="slot3" class="slot">🍉</div>
+        </div>
+        <button onclick="spinSlots()">Putar Slot</button>
+        <div id="slotMessage"></div>
+        <!-- Tombol Share -->
+  
+    </div>
+    <button onclick="shareSimulation()" class="share-button">
+        Klik tombol ini untuk bagikan web simulasi ini ke teman-teman kamu yang lain agar mereka juga tahu bahayanya Judi
+    </button>  
+    <!-- Modal Pop-up -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Loh loh saldonya udah abis aja? nah bahaya kan judi online? bikin nagih puter terus, eh gataunya duit udah abis aja wkwkw</p>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>Mau bikin website bisnismu atau tugas sekolah? Hub <a href="https://bit.ly/igambo" target="_blank">Klik disini</a></p>
+        <p>© 2024 made with ❤️ by <a href="https://bit.ly/igambo" target="_blank">Syarhabil</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
